@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a685450.css",
-    "main.js": "/static/js/main.d330e8d9.js",
-    "static/js/496.659722da.chunk.js": "/static/js/496.659722da.chunk.js",
-    "index.html": "/index.html",
-    "main.8a685450.css.map": "/static/css/main.8a685450.css.map",
-    "main.d330e8d9.js.map": "/static/js/main.d330e8d9.js.map",
-    "496.659722da.chunk.js.map": "/static/js/496.659722da.chunk.js.map"
+    "main.css": "/ReactJs-IceCream-App/static/css/main.8a685450.css",
+    "main.js": "/ReactJs-IceCream-App/static/js/main.26e874f3.js",
+    "static/js/496.659722da.chunk.js": "/ReactJs-IceCream-App/static/js/496.659722da.chunk.js",
+    "index.html": "/ReactJs-IceCream-App/index.html",
+    "main.8a685450.css.map": "/ReactJs-IceCream-App/static/css/main.8a685450.css.map",
+    "main.26e874f3.js.map": "/ReactJs-IceCream-App/static/js/main.26e874f3.js.map",
+    "496.659722da.chunk.js.map": "/ReactJs-IceCream-App/static/js/496.659722da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a685450.css",
-    "static/js/main.d330e8d9.js"
+    "static/js/main.26e874f3.js"
   ]
 }
