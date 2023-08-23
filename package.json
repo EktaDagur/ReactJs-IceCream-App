@@ -1,0 +1,53 @@
+{
+  "name": "react_test",
+  "version": "1.0.0",
+  "description": "React Test Repository",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">16.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@hookform/resolvers": "^3.2.0",
+    "@mui/icons-material": "^5.3.1",
+    "@mui/material": "^5.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.4",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^3.3.1",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@testing-library/dom": "^9.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
