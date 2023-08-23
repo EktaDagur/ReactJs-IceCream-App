@@ -12,6 +12,7 @@ import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline';
 import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 import AlertDialog from '../../common/AlertDialog';
 import { getFlavors } from '../../api';
+import {MockResposne} from '../../data/flavours';
 
 import SearchBar from './SearchBar';
 
@@ -49,13 +50,13 @@ export default function DataGrid({ scoopCountMap = new Map(), handleScoopCount }
   }, []);
 
   const fetchFlavours = async (filterRequest = "") => {
-    const flavorsObj = await getFlavors(filterRequest);
-    if (!flavorsObj) {
-      const message = `An error has occured`;
-      throw new Error(message);
-    }
-    setFlavorsData(flavorsObj);
-    console.log(flavorsObj);
+    // const flavorsObj = await getFlavors(filterRequest);
+    // if (!flavorsObj) {
+    //   const message = `An error has occured`;
+    //   throw new Error(message);
+    // }
+    setFlavorsData(MockResposne());
+    console.log("MockResposne",MockResposne());
   }
 
   const handelMinusColor = (name = "") => {

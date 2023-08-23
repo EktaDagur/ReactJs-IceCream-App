@@ -1,4 +1,4 @@
-let baseUrl = "https://raw.githubusercontent.com";
+let baseUrl = "http://localhost:8001";
 
 async function fetch(url, options = {}) {
     const headers = {
@@ -13,7 +13,7 @@ async function fetch(url, options = {}) {
 }
 
 export const getFlavors = async (filter = "") => {
-    const response = await fetch("/EktaDagur/ReactJs-IceCream-App/main/public/flavours.json" + filter, {method: "GET"});
+    const response = await fetch("/flavors?filter=" + filter, {method: "GET"});
     return response.json();
 };
 

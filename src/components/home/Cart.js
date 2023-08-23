@@ -12,6 +12,7 @@ import AlertDialog from '../../common/AlertDialog';
 import { getToppings, getSauces } from '../../api';
 import Slide from '@mui/material/Slide';
 import RemoveIcon from '@mui/icons-material/Remove';
+import {MockSaurce, MockToppings} from '../../data/flavours'
 
 const Transition = React.forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
@@ -68,21 +69,23 @@ const Cart = ({ scoopCountMap = new Map(), nextStep }) => {
     }
 
     const fetchTopings = async () => {
-        const toppingsObj = await getToppings();
-        if (!toppingsObj) {
-            const message = `An error has occured while fetching toppings`;
-            throw new Error(message);
-        }
-        setToppingsState(toppingsObj);
+        // const toppingsObj = await getToppings();
+        // if (!toppingsObj) {
+        //     const message = `An error has occured while fetching toppings`;
+        //     throw new Error(message);
+        // }
+        // setToppingsState(toppingsObj);
+        setToppingsState(MockToppings);
     }
 
     const fetchSauce = async () => {
-        const sauceObj = await getSauces();
-        if (!sauceObj) {
-            const message = `An error has occured while fetching sauce`;
-            throw new Error(message);
-        }
-        setSauceState(sauceObj)
+        // const sauceObj = await getSauces();
+        // if (!sauceObj) {
+        //     const message = `An error has occured while fetching sauce`;
+        //     throw new Error(message);
+        // }
+        // setSauceState(sauceObj)
+        setSauceState(MockSaurce);
     }
 
     // OnInit()
