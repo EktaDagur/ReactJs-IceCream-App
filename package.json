@@ -1,5 +1,6 @@
 {
   "name": "react_test",
+  "homepage": "http://ektadagur.github.io/ReactJs-IceCream-App",
   "version": "1.0.0",
   "description": "React Test Repository",
   "private": true,
@@ -30,10 +31,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
